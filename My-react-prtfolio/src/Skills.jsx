@@ -1,0 +1,118 @@
+function Skills() {
+  return (
+    <div className="max-w-2xl mx-auto px-4 sm:px-8 md:px-12">
+      <div className=" mt-5 border-t border-gray-700 font-[Quicksand] text-[#fafafa] flex gap-3">
+        <h1 className=" my-3 font-[doto] font-bold tracking-wider text-[26px] leading-8 text-[#fafafa]">
+          Skills
+        </h1>
+        <div className="my-3 text-gray-500 text-sm flex items-baseline-last">
+          Which I use/know
+        </div>
+      </div>
+      <p className="text-gray-400 font-[Quicksand] text-sm">
+        These are the technologies I've learned and worked with. This list is
+        constantly evolving as I continue to learn and grow as a developer.
+      </p>
+      <div className="text-gray-400 my-3 text-l ">&lt; LANGUAGE /&gt;</div>
+      <div className="gap-3 flex mb-7 items-center">
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/js.png" className="h-4 w-4" alt="" />
+            Javascript
+          </div>
+        </button>
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/html.png" className="h-4 w-4" alt="" />
+            Html
+          </div>
+        </button>
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/css.png" className="h-4 w-4" alt="" />
+            CSS
+          </div>
+        </button>
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/C.png" className="h-4 w-4" alt="" />C
+          </div>
+        </button>
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/java.png" className="h-4 w-4" alt="" />
+            JAVA
+          </div>
+        </button>
+      </div>
+      <div className="text-gray-400 my-3 text-l">
+        &lt; FRAMEWORK / LIBRARIES /&gt;
+      </div>
+      <div className="flex mb-7 items-center gap-3">
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/react.png" className="h-4 w-4" alt="" />
+            React
+          </div>
+        </button>
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img
+              src="./src/assets/Tailwind CSS.png"
+              className="h-4 w-4"
+              alt=""
+            />
+            Tailwind CSS
+          </div>
+        </button>
+      </div>
+
+      <div className="text-gray-400  my-3 text-l">
+        &lt; BACKEND / RUNTIME /&gt;
+      </div>
+      <div className="flex mb-7 gap-3 items-center">
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/node-js.png" className="h-4 w-4" alt="" />
+            NodeJS
+          </div>
+        </button>
+      </div>
+
+      <div className="text-gray-400 my-3 text-l">&lt; DATABASE /&gt;</div>
+      <div className="flex gap-3 mb-7 items-center">
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/MongoDB.png" className="h-4 w-4" alt="" />
+            MongoDB
+          </div>
+        </button>
+      </div>
+      <div className="text-gray-400  my-3 text-l">
+        &lt; DEVELOPER TOOLS /&gt;
+      </div>
+      <div className="flex gap-3 mb-10 items-center">
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/Git.png" className="h-4 w-4" alt="" />
+            Git
+          </div>
+        </button>
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/github.png" className="h-4 w-4" alt="" />
+            GitHub
+          </div>
+        </button>
+        <button className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
+          <div className="flex items-center gap-1">
+            <img src="./src/assets/VS.png" className="h-4 w-4" alt="" />
+            VS Code
+          </div>
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export default Skills;
