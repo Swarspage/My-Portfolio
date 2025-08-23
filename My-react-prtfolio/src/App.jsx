@@ -5,12 +5,14 @@ import Projects from "./Projects.jsx";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen w-full overflow-x-hidden">
       <Header />
-      <Introduction />
-      <Skills />
-      <Projects />
-    </>
+      <main className="pb-8">
+        <Introduction />
+        <Skills />
+        <Projects />
+      </main>
+    </div>
   );
 }
 

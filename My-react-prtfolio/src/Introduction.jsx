@@ -2,17 +2,17 @@ function Introduction() {
   return (
     <>
       <div className="max-w-2xl mx-auto px-4 sm:px-8 md:px-12">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 sm:gap-4">
           <img
             src="./src/assets/ProfilePic.jpg"
             alt=""
-            className="profile-picture rounded-full h-20 w-20 hover:"
+            className="profile-picture rounded-full h-16 w-16 sm:h-20 sm:w-20 flex-shrink-0"
           />
-          <div className="name">
-            <h1 className="font-[doto] font-bold tracking-wider text-[26px] leading-8 text-[#fafafa]">
+          <div className="name min-w-0">
+            <h1 className="font-[doto] font-bold tracking-wider text-[22px] sm:text-[26px] leading-7 sm:leading-8 text-[#fafafa]">
               Swar
             </h1>
-            <p className="font-[Quicksand] tracking-wider text-[15px] leading-8 text-gray-500 hover:text-[white] transition-colors duration-300 cursor-pointer">
+            <p className="font-[Quicksand] tracking-wider text-[13px] sm:text-[15px] leading-6 sm:leading-8 text-gray-500 hover:text-[white] transition-colors duration-300 cursor-pointer">
               <a href="https://github.com/Swarspage" target="_blank">
                 @sswar_09
               </a>
@@ -46,7 +46,7 @@ function Introduction() {
           </span>
         </p>
 
-        <div className="mt-5 flex items-center gap-3">
+        <div className="mt-5 flex flex-col sm:flex-row items-center gap-3">
           <button
             onClick={() =>
               window.open(
@@ -55,12 +55,12 @@ function Introduction() {
                 "noopener,noreferrer"
               )
             }
-            className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl hover:cursor-pointer text-[white] border border-transparent transition duration-500 hover:border-red-400 "
+            className="w-full sm:w-auto p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl hover:cursor-pointer text-[white] border border-transparent transition duration-500 hover:border-red-400"
           >
             Connect with me 😃
           </button>
-          <button className=" p-2 hover:cursor-pointer font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 ">
-            <div className="flex items-center gap-1">
+          <button className="w-full sm:w-auto p-2 hover:cursor-pointer font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
+            <div className="flex items-center justify-center gap-1">
               <img
                 src="./src/assets/downloadicon.png"
                 className="h-4 w-4"
@@ -75,7 +75,7 @@ function Introduction() {
           <div className="my-3 text-[#fafafa] text-sm ">
             Where to find me? (ofc! Online xD)
           </div>
-          <div className="flex gap-3 items-center">
+          <div className="flex flex-wrap gap-2 sm:gap-3 items-center">
             <button
               onClick={() => {
                 navigator.clipboard
@@ -95,11 +95,12 @@ function Introduction() {
                   className="h-4 w-4"
                   alt="Email icon"
                 />
-                Email me
+                <span className="hidden xs:inline">Email me</span>
+                <span className="xs:hidden">Email</span>
               </div>
             </button>
             <button
-              className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 hover:cursor-pointer"
+              className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 hover:cursor-pointer"
               onClick={() =>
                 window.open(
                   "https://github.com/Swarspage",
@@ -109,12 +110,12 @@ function Introduction() {
               }
             >
               <div className="flex items-center gap-1">
-                <img src="./src/assets/github.png" className="h-5 w-5" alt="" />
+                <img src="./src/assets/github.png" className="h-4 w-4" alt="" />
                 GitHub
               </div>
             </button>
             <button
-              className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 hover:cursor-pointer"
+              className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 hover:cursor-pointer"
               onClick={() =>
                 window.open(
                   "https://x.com/Swars_page",
@@ -124,11 +125,12 @@ function Introduction() {
               }
             >
               <div className="flex items-center gap-1">
-                <img src="./src/assets/X.png" className="h-4 w-4" alt="" />X
+                <img src="./src/assets/X.png" className="h-4 w-4" alt="" />
+                X
               </div>
             </button>
             <button
-              className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 hover:cursor-pointer"
+              className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 hover:cursor-pointer"
               onClick={() =>
                 window.open(
                   "https://www.linkedin.com/in/swar-shinde-91131a2b9/",
@@ -143,11 +145,12 @@ function Introduction() {
                   className="h-4 w-4 bg-amber-50 rounded-sm"
                   alt=""
                 />
-                Linkedin
+                <span className="hidden xs:inline">LinkedIn</span>
+                <span className="xs:hidden">LI</span>
               </div>
             </button>
             <button
-              className=" p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 "
+              className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400"
               onClick={() => {
                 navigator.clipboard
                   .writeText("itsme.3974")
@@ -162,7 +165,7 @@ function Introduction() {
               <div className="flex items-center gap-1">
                 <img
                   src="./src/assets/discord.png"
-                  className="h-4 w-4  bg-amber-50 rounded-sm"
+                  className="h-4 w-4 bg-amber-50 rounded-sm"
                   alt=""
                 />
                 Discord
