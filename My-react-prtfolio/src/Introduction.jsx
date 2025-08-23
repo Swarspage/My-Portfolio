@@ -1,10 +1,18 @@
+import profilePic from './assets/profilePic.jpg';
+import downloadIcon from './assets/downloadicon.png';
+import emailIcon from './assets/email.png';
+import githubIcon from './assets/github.png';
+import xIcon from './assets/X.png';
+import linkedinIcon from './assets/linkedin-logo.png';
+import discordIcon from './assets/discord.png';
+
 function Introduction() {
   return (
     <>
       <div className="max-w-2xl mx-auto px-4 sm:px-8 md:px-12">
         <div className="flex items-center gap-3 sm:gap-4">
           <img
-            src="./assets/profilePic.jpg"
+            src={profilePic}
             alt=""
             className="profile-picture rounded-full h-16 w-16 sm:h-20 sm:w-20 flex-shrink-0"
           />
@@ -62,7 +70,7 @@ function Introduction() {
           <button className="w-full sm:w-auto p-2 hover:cursor-pointer font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
             <div className="flex items-center justify-center gap-1">
               <img
-                src="./assets/downloadicon.png"
+                src={downloadIcon}
                 className="h-4 w-4"
                 alt=""
               />
@@ -91,7 +99,7 @@ function Introduction() {
             >
               <div className="flex items-center gap-1">
                 <img
-                  src="./assets/email.png"
+                  src={emailIcon}
                   className="h-4 w-4"
                   alt="Email icon"
                 />
@@ -110,7 +118,7 @@ function Introduction() {
               }
             >
               <div className="flex items-center gap-1">
-                <img src="./assets/github.png" className="h-4 w-4" alt="" />
+                <img src={githubIcon} className="h-4 w-4" alt="" />
                 GitHub
               </div>
             </button>
@@ -125,7 +133,7 @@ function Introduction() {
               }
             >
               <div className="flex items-center gap-1">
-                <img src="./assets/X.png" className="h-4 w-4" alt="" />
+                <img src={xIcon} className="h-4 w-4" alt="" />
                 X
               </div>
             </button>
@@ -141,7 +149,7 @@ function Introduction() {
             >
               <div className="flex items-center gap-1">
                 <img
-                  src="./assets/linkedin-logo.png"
+                  src={linkedinIcon}
                   className="h-4 w-4 bg-amber-50 rounded-sm"
                   alt=""
                 />
@@ -164,7 +172,7 @@ function Introduction() {
             >
               <div className="flex items-center gap-1">
                 <img
-                  src="./assets/discord.png"
+                  src={discordIcon}
                   className="h-4 w-4 bg-amber-50 rounded-sm"
                   alt=""
                 />

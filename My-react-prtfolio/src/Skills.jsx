@@ -1,3 +1,16 @@
+import jsIcon from './assets/js.png';
+import htmlIcon from './assets/html.png';
+import cssIcon from './assets/css.png';
+import cIcon from './assets/C.png';
+import javaIcon from './assets/java.png';
+import reactIcon from './assets/react.png';
+import tailwindIcon from './assets/Tailwind CSS.png';
+import nodeIcon from './assets/node-js.png';
+import mongoIcon from './assets/MongoDB.png';
+import gitIcon from './assets/Git.png';
+import githubIcon from './assets/github.png';
+import vsIcon from './assets/VS.png';
+
 function Skills() {
   return (
     <div className="max-w-2xl mx-auto px-4 sm:px-8 md:px-12">
@@ -17,30 +30,30 @@ function Skills() {
       <div className="flex flex-wrap gap-2 sm:gap-3 mb-7 items-center">
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/js.png" className="h-4 w-4" alt="" />
+            <img src={jsIcon} className="h-4 w-4" alt="" />
             Javascript
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/html.png" className="h-4 w-4" alt="" />
+            <img src={htmlIcon} className="h-4 w-4" alt="" />
             Html
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/css.png" className="h-4 w-4" alt="" />
+            <img src={cssIcon} className="h-4 w-4" alt="" />
             CSS
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/C.png" className="h-4 w-4" alt="" />C
+            <img src={cIcon} className="h-4 w-4" alt="" />C
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/java.png" className="h-4 w-4" alt="" />
+            <img src={javaIcon} className="h-4 w-4" alt="" />
             JAVA
           </div>
         </button>
@@ -51,14 +64,14 @@ function Skills() {
       <div className="flex flex-wrap mb-7 items-center gap-2 sm:gap-3">
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/react.png" className="h-4 w-4" alt="" />
+            <img src={reactIcon} className="h-4 w-4" alt="" />
             React
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
             <img
-              src="./assets/Tailwind CSS.png"
+              src={tailwindIcon}
               className="h-4 w-4"
               alt=""
             />
@@ -73,7 +86,7 @@ function Skills() {
       <div className="flex flex-wrap mb-7 gap-2 sm:gap-3 items-center">
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/node-js.png" className="h-4 w-4" alt="" />
+            <img src={nodeIcon} className="h-4 w-4" alt="" />
             NodeJS
           </div>
         </button>
@@ -83,7 +96,7 @@ function Skills() {
       <div className="flex flex-wrap gap-2 sm:gap-3 mb-7 items-center">
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/MongoDB.png" className="h-4 w-4" alt="" />
+            <img src={mongoIcon} className="h-4 w-4" alt="" />
             MongoDB
           </div>
         </button>
@@ -94,19 +107,19 @@ function Skills() {
       <div className="flex flex-wrap gap-2 sm:gap-3 mb-10 items-center">
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/Git.png" className="h-4 w-4" alt="" />
+            <img src={gitIcon} className="h-4 w-4" alt="" />
             Git
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/github.png" className="h-4 w-4" alt="" />
+            <img src={githubIcon} className="h-4 w-4" alt="" />
             GitHub
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./assets/VS.png" className="h-4 w-4" alt="" />
+            <img src={vsIcon} className="h-4 w-4" alt="" />
             VS Code
           </div>
         </button>
