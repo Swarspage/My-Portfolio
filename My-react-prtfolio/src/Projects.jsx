@@ -18,7 +18,7 @@ function Projects() {
               <div className="h-full overflow-hidden w-[35%] sm:w-[30%]">
                 <img
                   className="h-full w-full object-cover rounded-l-2xl transform transition-transform duration-300 ease-in-out hover:scale-[1.2]"
-                  src="./src/assets/Project1.jpg"
+                  src="./assets/Project1.jpg"
                   alt="SkillTube Project"
                 />
               </div>
@@ -47,7 +47,7 @@ function Projects() {
               <div className="h-full overflow-hidden w-[35%] sm:w-[30%]">
                 <img
                   className="h-full w-full object-cover rounded-l-2xl transform transition-transform duration-300 ease-in-out hover:scale-[1.2]"
-                  src="./src/assets/Vayu.png"
+                  src="./assets/Vayu.png"
                   alt="Vayu Project"
                 />
               </div>

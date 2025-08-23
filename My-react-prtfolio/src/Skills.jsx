@@ -17,30 +17,30 @@ function Skills() {
       <div className="flex flex-wrap gap-2 sm:gap-3 mb-7 items-center">
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/js.png" className="h-4 w-4" alt="" />
+            <img src="./assets/js.png" className="h-4 w-4" alt="" />
             Javascript
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/html.png" className="h-4 w-4" alt="" />
+            <img src="./assets/html.png" className="h-4 w-4" alt="" />
             Html
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/css.png" className="h-4 w-4" alt="" />
+            <img src="./assets/css.png" className="h-4 w-4" alt="" />
             CSS
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/C.png" className="h-4 w-4" alt="" />C
+            <img src="./assets/C.png" className="h-4 w-4" alt="" />C
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/java.png" className="h-4 w-4" alt="" />
+            <img src="./assets/java.png" className="h-4 w-4" alt="" />
             JAVA
           </div>
         </button>
@@ -51,14 +51,14 @@ function Skills() {
       <div className="flex flex-wrap mb-7 items-center gap-2 sm:gap-3">
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/react.png" className="h-4 w-4" alt="" />
+            <img src="./assets/react.png" className="h-4 w-4" alt="" />
             React
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
             <img
-              src="./src/assets/Tailwind CSS.png"
+              src="./assets/Tailwind CSS.png"
               className="h-4 w-4"
               alt=""
             />
@@ -73,7 +73,7 @@ function Skills() {
       <div className="flex flex-wrap mb-7 gap-2 sm:gap-3 items-center">
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/node-js.png" className="h-4 w-4" alt="" />
+            <img src="./assets/node-js.png" className="h-4 w-4" alt="" />
             NodeJS
           </div>
         </button>
@@ -83,7 +83,7 @@ function Skills() {
       <div className="flex flex-wrap gap-2 sm:gap-3 mb-7 items-center">
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/MongoDB.png" className="h-4 w-4" alt="" />
+            <img src="./assets/MongoDB.png" className="h-4 w-4" alt="" />
             MongoDB
           </div>
         </button>
@@ -94,19 +94,19 @@ function Skills() {
       <div className="flex flex-wrap gap-2 sm:gap-3 mb-10 items-center">
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/Git.png" className="h-4 w-4" alt="" />
+            <img src="./assets/Git.png" className="h-4 w-4" alt="" />
             Git
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/github.png" className="h-4 w-4" alt="" />
+            <img src="./assets/github.png" className="h-4 w-4" alt="" />
             GitHub
           </div>
         </button>
         <button className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
           <div className="flex items-center gap-1">
-            <img src="./src/assets/VS.png" className="h-4 w-4" alt="" />
+            <img src="./assets/VS.png" className="h-4 w-4" alt="" />
             VS Code
           </div>
         </button>
