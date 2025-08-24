@@ -1,10 +1,10 @@
-import profilePic from './assets/profilePic.jpg';
-import downloadIcon from './assets/downloadicon.png';
-import emailIcon from './assets/email.png';
-import githubIcon from './assets/github.png';
-import xIcon from './assets/X.png';
-import linkedinIcon from './assets/linkedin-logo.png';
-import discordIcon from './assets/discord.png';
+import profilePic from "./assets/profilePic.jpg";
+import downloadIcon from "./assets/downloadicon.png";
+import emailIcon from "./assets/email.png";
+import githubIcon from "./assets/github.png";
+import xIcon from "./assets/X.png";
+import linkedinIcon from "./assets/linkedin-logo.png";
+import discordIcon from "./assets/discord.png";
 
 function Introduction() {
   return (
@@ -49,7 +49,7 @@ function Introduction() {
 
         <p className="text-gray-400 text-sm mt-5">
           <span className="text-[#fafafa]">
-            I code like I play chess — thinking three moves ahead, but still
+            I code like I play chess, thinking three moves ahead, but still
             ready to improvise when the plan falls apart.
           </span>
         </p>
@@ -67,13 +67,23 @@ function Introduction() {
           >
             Connect with me 😃
           </button>
-          <button className="w-full sm:w-auto p-2 hover:cursor-pointer font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400">
+          <button
+            onClick={() => {
+              // Create a temporary link element to download the CV
+              const link = document.createElement("a");
+              // Use the correct base path for GitHub Pages
+              link.href = import.meta.env.DEV
+                ? "/Swar_Shinde_CV.pdf"
+                : "/My-Portfolio/Swar_Shinde_CV.pdf";
+              link.download = "Swar_Shinde_CV.pdf";
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }}
+            className="w-full sm:w-auto p-2 hover:cursor-pointer font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400"
+          >
             <div className="flex items-center justify-center gap-1">
-              <img
-                src={downloadIcon}
-                className="h-4 w-4"
-                alt=""
-              />
+              <img src={downloadIcon} className="h-4 w-4" alt="" />
               Download CV
             </div>
           </button>
@@ -98,11 +108,7 @@ function Introduction() {
               className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-white border border-transparent transition duration-500 hover:border-red-400 hover:cursor-pointer"
             >
               <div className="flex items-center gap-1">
-                <img
-                  src={emailIcon}
-                  className="h-4 w-4"
-                  alt="Email icon"
-                />
+                <img src={emailIcon} className="h-4 w-4" alt="Email icon" />
                 <span className="hidden xs:inline">Email me</span>
                 <span className="xs:hidden">Email</span>
               </div>
@@ -133,8 +139,7 @@ function Introduction() {
               }
             >
               <div className="flex items-center gap-1">
-                <img src={xIcon} className="h-4 w-4" alt="" />
-                X
+                <img src={xIcon} className="h-4 w-4" alt="" />X
               </div>
             </button>
             <button

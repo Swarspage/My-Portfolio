@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swar Shinde - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background-color: #fff;
+            font-size: 10pt;
+        }
+        
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 15px;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+        
+        .name {
+            font-size: 24pt;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 6px;
+        }
+        
+        .contact-info {
+            font-size: 10pt;
+            color: #666;
+            margin: 5px 0;
+        }
+        
+        .section {
+            margin-bottom: 12px;
+        }
+        
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 2px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .education-item, .experience-item, .project-item {
+            margin-bottom: 10px;
+        }
+        
+        .institution, .project-title {
+            font-weight: bold;
+            font-size: 11pt;
+            color: #2c3e50;
+        }
+        
+        .degree, .project-tech {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 10pt;
+        }
+        
+        .duration, .location {
+            float: right;
+            color: #7f8c8d;
+            font-size: 10pt;
+        }
+        
+        .description {
+            margin-top: 5px;
+            font-size: 10pt;
+            text-align: justify;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .skill-category {
+            margin-bottom: 10px;
+        }
+        
+        .skill-category-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 10pt;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+        
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        
+        .skill-tag {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            padding: 3px 8px;
+            border-radius: 15px;
+            font-size: 9pt;
+            border: 1px solid #bdc3c7;
+        }
+        
+        .achievement-item {
+            margin-bottom: 8px;
+            font-size: 10pt;
+        }
+        
+        .achievement-item::before {
+            content: "•";
+            color: #2c3e50;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        @media print {
+            body {
+                font-size: 10pt;
+            }
+            .container {
+                padding: 10px;
+                max-width: none;
+            }
+            .name {
+                font-size: 24pt;
+            }
+            .section-title {
+                font-size: 12pt;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="name">SWAR SHINDE</div>
+            <div class="contact-info">
+                📧 swarshinde2006@gmail.com | 📱 +91 7387088205 | 🌐 GitHub: @Swarspage | 💼 LinkedIn: swar-shinde-91131a2b9
+            </div>
+            <div class="contact-info">
+                📍 Navi Mumbai, Maharashtra, India
+            </div>
+        </div>
+
+        <!-- Objective -->
+        <div class="section">
+            <div class="section-title">Objective</div>
+            <p class="description">
+                Passionate 19-year-old Computer Engineering student with expertise in MERN stack development. 
+                Experienced in building full-stack web applications, participating in hackathons, and contributing to technical communities. 
+                Seeking opportunities to apply my technical skills and creative problem-solving abilities in innovative projects.
+            </p>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            
+            <div class="education-item clearfix">
+                <div class="institution">Datta Meghe College of Engineering</div>
+                <div class="duration">2024 - Present</div>
+                <div class="degree">Bachelor of Engineering - Computer Engineering</div>
+                <div class="location">Airoli, Navi Mumbai - 400708</div>
+                <div class="description">CGPA: 8.365 (1st Year)</div>
+            </div>
+
+            <div class="education-item clearfix">
+                <div class="institution">Abhishek Junior College</div>
+                <div class="duration">2022 - 2024</div>
+                <div class="degree">Higher Secondary Certificate (HSC) - Science Stream</div>
+                <div class="location">Shahunagar, Pune</div>
+                <div class="description">Percentage: 70%</div>
+            </div>
+
+            <div class="education-item clearfix">
+                <div class="institution">Elpro International School</div>
+                <div class="duration">2018 - 2022</div>
+                <div class="degree">Secondary School Certificate (SSC)</div>
+                <div class="location">Chinchwad, Pune</div>
+                <div class="description">Percentage: 89%</div>
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-category-title">Languages</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-category-title">Frameworks & Libraries</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-category-title">Backend & Runtime</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-category-title">Database</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-category-title">Developer Tools</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <div class="section-title">Projects</div>
+            
+            <div class="project-item">
+                <div class="project-title clearfix">
+                    SkillTube
+                    <div class="duration">2025</div>
+                </div>
+                <div class="project-tech">MERN Stack | Video Platform</div>
+                <div class="description">
+                    A video-first platform that empowers skilled workers to showcase their craft and connect directly with global buyers. 
+                    Features user authentication, video upload functionality, and real-time communication between service providers and clients.
+                    <br><strong>GitHub:</strong> github.com/Swarspage/Runtime-Terrors
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-title clearfix">
+                    Vayu - Weather Application
+                    <div class="duration">July 2025</div>
+                </div>
+                <div class="project-tech">JavaScript | OpenWeather API | Responsive Design</div>
+                <div class="description">
+                    A sleek weather application that delivers real-time forecasts using the OpenWeather API. 
+                    Features location-based weather data, interactive UI, and responsive design for all devices.
+                    <br><strong>GitHub:</strong> github.com/Swarspage/CSI-Weather-App
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience & Leadership -->
+        <div class="section">
+            <div class="section-title">Leadership & Experience</div>
+            
+            <div class="experience-item">
+                <div class="institution clearfix">
+                    CSI CATT Committee - Technical Team Member
+                    <div class="duration">July 2025 - Present</div>
+                </div>
+                <div class="degree">Datta Meghe College of Engineering</div>
+                <div class="description">
+                    • Selected for the prestigious technical team in CSI CATT committee<br>
+                    • Currently working on the development of college student portal<br>
+                    • Collaborated with senior students and faculty on technical initiatives
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="institution clearfix">
+                    Git & GitHub Workshop Facilitator
+                    <div class="duration">August 2025</div>
+                </div>
+                <div class="degree">Volunteer Instructor</div>
+                <div class="description">
+                    • Conducted educational sessions for 2nd and 3rd year students on Git and GitHub fundamentals<br>
+                    • Taught version control concepts, branching strategies, and collaborative development practices<br>
+                    • Helped students set up their first repositories and understand open-source contribution
+                </div>
+            </div>
+        </div>
+
+        <!-- Achievements -->
+        <div class="section">
+            <div class="section-title">Achievements & Awards</div>
+            
+            <div class="achievement-item">
+                <strong>Code-A-Thon Hackathon (February 2025):</strong> Team "Runtime Terrors" received appreciation certificate for innovative SkillTube project
+            </div>
+            
+            <div class="achievement-item">
+                <strong>Table Tennis Doubles:</strong> 1st Runner-up in college tournament, demonstrating teamwork and competitive spirit
+            </div>
+            
+            <div class="achievement-item">
+                <strong>Academic Excellence:</strong> Maintained consistent academic performance with 8.365 CGPA in first year of engineering
+            </div>
+        </div>
+
+        <!-- Interests -->
+        <div class="section">
+            <div class="section-title">Interests & Hobbies</div>
+            <div class="description">
+                Full-stack development, Open-source contributions, Chess, Cycling, Cooking, Hackathon participation, 
+                Technical mentoring, Sports (Table Tennis)
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -8,10 +8,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "vite build && copy public\\Swar_Shinde_CV.pdf dist\\ && gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "puppeteer": "^24.17.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.11"

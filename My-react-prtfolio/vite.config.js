@@ -6,4 +6,11 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: "/My-Portfolio/",
+  publicDir: "public", // Ensure public directory is properly handled
+  build: {
+    rollupOptions: {
+      // Ensure the PDF is copied to the output directory
+      external: [],
+    },
+  },
 });
