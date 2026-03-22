@@ -28,30 +28,15 @@ function Introduction() {
           </div>
         </div>
         <p className="text-gray-400 text-sm mt-5">
-          I'm <span className="text-[#fafafa]">Swar</span>, an 19-year-old
-          developer-in-training from Navi Mumbai, India. I spend most of my time
-          <span className="text-[#fafafa]"> building websites</span>, breaking
-          them, and then pretending it was all part of the plan.
+          Hi! I’m <span className="text-[#fafafa]">Swar</span>, a <span className="text-[#fafafa]">19-year-old 2nd year student</span> at <span className="text-[#fafafa]">Mumbai University</span>. I’m currently working as a college intern under our HOD and as a <span className="text-[#fafafa]">frontend developer</span>.
         </p>
 
         <p className="text-gray-400 text-sm mt-5">
-          I’m all about development with a bit of design sense, so yeah, I can
-          make things look good and actually work (shocking, I know). My current
-          tech crush is the <span className="text-[#fafafa]">MERN</span> stack,
-          but I’ll flirt with any tool that gets the job done.
+          I’m currently building a <span className="text-[#fafafa]">scalable student database</span> to store important student information. I’m also learning <span className="text-[#fafafa]">SQL, PostgreSQL, and Express with Node.js</span>, and I plan to learn <span className="text-[#fafafa]">Next.js and TypeScript</span> next.
         </p>
 
         <p className="text-gray-400 text-sm mt-5">
-          When <span className="text-[#fafafa]">I'm not coding</span>, you’ll
-          catch me riding my bike, playing chess (and occasionally winning),
-          cooking something experimental, or plotting my next hackathon win.
-        </p>
-
-        <p className="text-gray-400 text-sm mt-5">
-          <span className="text-[#fafafa]">
-            I code like I play chess, thinking three moves ahead, but still
-            ready to improvise when the plan falls apart.
-          </span>
+          I enjoy working with <span className="text-[#fafafa]">React and frontend technologies</span>. Feel free to ask me about frontend development.
         </p>
 
         <div className="mt-5 flex flex-col sm:flex-row items-center gap-3">
@@ -96,19 +81,12 @@ function Introduction() {
           <div className="flex flex-wrap gap-2 sm:gap-3 items-center">
             <button
               onClick={() => {
-                navigator.clipboard
-                  .writeText("swarshinde2006@gmail.com")
-                  .then(() => {
-                    alert("📋 Email copied to clipboard!");
-                  })
-                  .catch((err) => {
-                    console.error("Failed to copy email: ", err);
-                  });
+                window.open("mailto:swarshinde2006@gmail.com");
               }}
               className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-white border border-transparent transition duration-500 hover:border-red-400 hover:cursor-pointer"
             >
-              <div className="flex items-center gap-1">
-                <img src={emailIcon} className="h-4 w-4" alt="Email icon" />
+              <div className="flex items-center gap-2">
+                <img src="https://cdn.simpleicons.org/gmail/EA4335" className="h-4 w-4" alt="Email icon" />
                 <span className="hidden xs:inline">Email me</span>
                 <span className="xs:hidden">Email</span>
               </div>
@@ -123,8 +101,8 @@ function Introduction() {
                 )
               }
             >
-              <div className="flex items-center gap-1">
-                <img src={githubIcon} className="h-4 w-4" alt="" />
+              <div className="flex items-center gap-2">
+                <img src="https://cdn.simpleicons.org/github/f87171" className="h-4 w-4" alt="" />
                 GitHub
               </div>
             </button>
@@ -138,8 +116,8 @@ function Introduction() {
                 )
               }
             >
-              <div className="flex items-center gap-1">
-                <img src={xIcon} className="h-4 w-4" alt="" />X
+              <div className="flex items-center gap-2">
+                <img src="https://cdn.simpleicons.org/x/f87171" className="h-4 w-4" alt="" />X
               </div>
             </button>
             <button
@@ -152,10 +130,10 @@ function Introduction() {
                 )
               }
             >
-              <div className="flex items-center gap-1">
+              <div className="flex items-center gap-2">
                 <img
-                  src={linkedinIcon}
-                  className="h-4 w-4 bg-amber-50 rounded-sm"
+                  src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"
+                  className="h-4 w-auto rounded-sm"
                   alt=""
                 />
                 <span className="hidden xs:inline">LinkedIn</span>
@@ -164,24 +142,51 @@ function Introduction() {
             </button>
             <button
               className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400"
-              onClick={() => {
-                navigator.clipboard
-                  .writeText("itsme.3974")
-                  .then(() => {
-                    alert("ID copied to clipboard!");
-                  })
-                  .catch((err) => {
-                    console.error("Failed to copy ID: ", err);
-                  });
-              }}
+              onClick={() =>
+                window.open(
+                  "https://discord.gg/itsme.3974",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
             >
-              <div className="flex items-center gap-1">
+              <div className="flex items-center gap-2">
                 <img
-                  src={discordIcon}
-                  className="h-4 w-4 bg-amber-50 rounded-sm"
+                  src="https://cdn.simpleicons.org/discord/5865F2"
+                  className="h-4 w-4 rounded-sm"
                   alt=""
                 />
                 Discord
+              </div>
+            </button>
+            <button
+              className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 hover:cursor-pointer"
+              onClick={() =>
+                window.open(
+                  "https://instagram.com/sswar_09",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              <div className="flex items-center gap-2">
+                <img src="https://cdn.simpleicons.org/instagram/E4405F" className="h-4 w-4" alt="" />
+                Instagram
+              </div>
+            </button>
+            <button
+              className="p-2 font-[Quicksand] text-xs bg-gray-900 rounded-xl text-[white] border border-transparent transition duration-500 hover:border-red-400 hover:cursor-pointer"
+              onClick={() =>
+                window.open(
+                  "https://www.youtube.com/@Swardevv/videos",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              <div className="flex items-center gap-2">
+                <img src="https://cdn.simpleicons.org/youtube/FF0000" className="h-4 w-4" alt="" />
+                YouTube
               </div>
             </button>
           </div>
